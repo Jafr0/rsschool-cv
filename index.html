@@ -1,15 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CV</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&amp;display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
 
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+
+					<a target="_blank" href="https://github.com/Jafr0/rsschool-cv" class="header__logo">
+						<img src="rescue_my_resume_logo-29f452217878871c29a37e1e9b63c01c.png">
+					</a>
+
+					<div class="header__burger">
+						<span></span>
+					</div>
+
+					<nav class="header__menu">
+						<ul class="header__list" type="none">
+							<li><a href="#" class="header__link">About me</a></li>
+
+							<li><a href="#" class="header__link">Skills</a></li>
+
+							<li><a href="#" class="header__link">Strengths</a></li>
+
+							<li><a href="#" class="header__link">Code</a></li>
+
+							<li><a href="#" class="header__link">Projects</a></li>
+
+							<li><a href="#" class="header__link">Contact</a></li>
+
+							<li><a href="#" class="header__link">Education</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+		<main>
+			<div class="left__side">
+
+				<img src="J&K (209).jpg" width="380" height="507" class="photo" alt="Photo of Mikheyenko Eugene">
+
+				<section class="contact">
+					<h2 class="title">Contact</h2>
+					<ul class="contact__list">
+						<li class="contact__item">
+							Phone:<a href="tel:+375333183387" class="cont__item"><br>+375 (44) 749-18-32</a>
+						</li>
+						<li class="contact__item">
+							Email:<a href="mailto:zhek42@yandex.ru" class="cont__item"><br>zhek42@yandex.ru</a>
+						</li>
+						<li class="contact__item">
+							Address:<br>
+							<span>Dzimitrova street, Mogilev, Belarus, 212000</span>
+						</li>
+					</ul>
+				</section>
+				<section class="education">
+					<h2 class="title">Education</h2>
+					<ul class="education__list">
+						<li class="education__item">
+							2011-2016 <br>Belarusian-Russian University (BRU),<br>
+							Automated electric drives
+						</li>
+						<li class="education__item">
+							2019-2020 <br>Course on Codebra
+						</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="right__side">
+				<section class="page__title">
+					<h1 class="main__title">Eugene <br>Mikheyenko</h1>
+					<p>Front-End developer</p>
+				</section>
+
+				<section class="about__me">
+					<h2 class="title">About me</h2>
+					<p>
+						I like to study and learn something new. I like to read books, do
+						physical education, listen to music of different genres. I'm fond of
+						good cars and bikes. I lead active and healhy lifestyle. I like to
+						work and see the results of my work.<br>
+						Since childhood, I have had a predisposition to work with
+						electronics and computers. I like to disassemble, assemble and
+						configure something. I can build, configure, solve problems with
+						computers.
+					</p>
+				</section>
+				<section class="skills" id="skills">
+					<h2 class="title">Skills</h2>
+					<ul class="skills__list">
+						<li>Engineering</li>
+						<li>HTML/CSS</li>
+						<li>Knowledge about ServiceNow administration.</li>
+						<li>Initial knowledge of JS. I have been studying JS.</li>
+						<li>English - B1. </li>
+					</ul>
+				</section>
+				<section class="strengths">
+					<h2 class="title">Key strengths</h2>
+					<ul class="strengths__list">
+						<li>Hardworking</li>
+						<li>Responsible</li>
+						<li>Sociable</li>
+						<li>Quick learner</li>
+						<li>Goal-oriented</li>
+						<li>Conscientious</li>
+					</ul>
+				</section>
+				<section class="code__example">
+					<h2 class="title">Code example</h2>
+
+					<div class="block__item">
+						<div class="block__title">Example of code</div>
+						<div class="block__text">
+							<pre>
+									<code>
+<p>Код программы</p>
+  <p><code>
+    function checkParent (src, dest) {<Br>
+     while (src != null) {<Br>
+       if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+     }<Br>
+     return null<Br>
+    }</code></p>								
+									</code>
+									</pre>
+
+						</div>
+
+
+					</div>
+				</section>
+				<section class="projects" id="projects">
+					<h2 class="title">My projects</h2>
+					<div class="proj1">
+						<div class="proj1_item">
+							<div class="photo1">
+								<a class="link1" href="https://gracious-spence-69a221.netlify.app/" target="_blank"
+									rel="nofollow noopener">
+									<img class="photo__1" src="Screenshot (10).png" alt="Могилевская дистанция электроснабжения">
+								</a>
+								<div class="media_link__label">
+									<div class="media_link__info">
+										<a class="media_link__title" href="https://gracious-spence-69a221.netlify.app/"
+											target="_blank" rel="nofollow noopener">Могилевская дистанция электроснабжения</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+		</main>
+
+		<section>
+			<footer id="footer" class="footer lock-padding">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer-side">
+							<a target="_blank" href="https://github.com/Jafr0" class="github__logo">
+								<img src="25231.png" width="40px" height="40px" alt="Logo My GitHub link">
+								<div class="textlogo">My GitHub</div>
+
+							</a>
+						</div>
+
+						<div class="year">2022</div>
+
+						<a target="_blank" href="https://rs.school/" class="rsschool__logo">
+							<img src="rs_school_js.svg" width="150px" height="80px" alt="Logo RS SCHOOL">
+						</a>
+
+
+					</div>
+				</div>
+			</footer>
+		</section>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<script>
+		$('.header__burger').click(function () {
+			$('.header__burger, .header__menu').toggleClass('active');
+			$('body').toggleClass('lock');
+		});
+	</script>
+
+
+
+	<script>
+		$(document).ready(function () {
+			$(".block__title").click(function (event) {
+				$(this).toggleClass("active").next().slideToggle(300);
+			})
+		});
+	</script>
 </body>
+
 
 </html>
