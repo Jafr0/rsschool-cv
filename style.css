@@ -145,7 +145,7 @@ main {
 .left__side {
 	display: inline-flex;
 	flex-direction: column;
-	width: 30%;
+	width: 40%;
 	color: white;
 	background-color: #0e3574;
 }
@@ -199,6 +199,7 @@ main {
 }
 .cont__item {
 	color: white;
+	font-size: 20px;
 }
 
 .education {
